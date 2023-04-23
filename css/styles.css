@@ -53,6 +53,24 @@ span{
 }
 
 
+.link-card{
+  text-decoration: none;
+
+}
+.portfolio-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42 ;  
+}
+/* paragraf */
+.discription{
+  font-size: 16px;
+  line-height: 1.5; 
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 
 .header-nav {
   display: flex;
@@ -137,14 +155,13 @@ span{
 
 
 .button-main-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-
   width: 169px;
   height: 56px;
   left: 20px;
