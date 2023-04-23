@@ -14,7 +14,7 @@ ul {
 
 /* header */
 
-.logo-black {
+.logo-link {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
@@ -49,15 +49,14 @@ ul {
   text-decoration: underline;
 }
 
-.header-div {
-  display: flex;
-}
+
 
 .header-nav {
   display: flex;
 }
 
-.ul-list {
+.list {
+  list-style: none;
   display: flex;
 }
 
@@ -100,6 +99,24 @@ ul {
   width: 511px;
   padding: 188px 472px 48px 472px;
 }
+
+.filters-btn{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5 ;
+  letter-spacing: 0.04em;
+  background-color:  #F4F4FD;
+  cursor: pointer;
+}
+.filters-btn:hover{
+  background-color: #404BBF ;
+}
+.filters-btn:focus{
+  color:  #FFFFFF;
+}
+
+
 
 .button-main-title {
   font-family: 'Roboto', sans-serif;
@@ -186,7 +203,7 @@ ul {
   background-color: var(--brand-color);
 }
 
-.logo-white {
+.logo-link-link {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -238,8 +255,8 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--brand-color);
 }
 
@@ -249,4 +266,8 @@ ul {
 
 .viem-portfolio {
   color: #434455;
+}
+
+.link{
+  text-decoration: none
 }
