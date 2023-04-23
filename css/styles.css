@@ -24,17 +24,11 @@ ul {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
   text-decoration: none;
 }
 .logo-web {
-  color: #404bbf;
+color: #2E2F42;
 }
-
-span{
-  color: #2e2f42;
-}
-
 
 .header-link {
   text-decoration: none;
@@ -234,6 +228,10 @@ span{
   background-color: var(--brand-color);
 }
 
+.logo-link{
+  color: #4D5AE5;
+}
+
 .logo-link-link {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
@@ -242,13 +240,11 @@ span{
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-
   text-transform: uppercase;
-
-  color: #f4f4fd;
+  color: #4D5AE5;
 }
-.link-first{
-  color: #f4f4fd
+.logo-web-link{
+  color:#F4F4FD;
 }
 
 .footer-p {
