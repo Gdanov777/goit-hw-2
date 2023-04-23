@@ -14,7 +14,7 @@ ul {
 
 /* header */
 
-.logo-link {
+.link-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -94,8 +94,8 @@ color: #2E2F42;
 /* saction 1 */
 
 .title-all {
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -156,8 +156,7 @@ color: #2E2F42;
   height: 56px;
   left: 20px;
   top: 20px;
-  background: #4d5ae5;
-
+  background-color: #4D5AE5;
   border: 0px;
   border-radius: 4px;
   cursor: pointer;
@@ -228,11 +227,11 @@ color: #2E2F42;
   background-color: var(--brand-color);
 }
 
-.logo-link{
+.link-logo{
   color: #4D5AE5;
 }
 
-.logo-link-link {
+.link-logo-link {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
