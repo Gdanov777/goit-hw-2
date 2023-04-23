@@ -44,6 +44,27 @@ ul {
   color: #2e2f42;
 }
 
+.link-logo-web {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-web-link {
+  color: #f4f4fd;
+  text-decoration: none;
+}
+
+.link-photo-portfolio {
+  text-decoration: none;
+}
+
 .header-link {
   text-decoration: none;
   font-family: 'Roboto';
@@ -58,6 +79,30 @@ ul {
 .header-link:hover {
   color: #404bbf;
   text-decoration: underline;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-link-address {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-link-address:hover,
+.header-link-address:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
 }
 
 .portfolio-title {
@@ -77,34 +122,10 @@ ul {
   color: #434455;
 }
 
-.header-nav {
-  display: flex;
-}
-
 .list {
   list-style: none;
   display: flex;
 }
-
-.header-link-address {
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.header-link-address:hover,
-.header-link-address:focus {
-  color: #404bbf;
-}
-
-.address {
-  font-style: normal;
-}
-
 
 .title-all {
   font-size: 36px;
@@ -113,6 +134,10 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--brand-color);
+}
+
+.names-of-specialists{
+  letter-spacing: 0.02em;
 }
 
 .main-title-bg {
@@ -197,9 +222,6 @@ ul {
   color: #434455;
 }
 
-/* saction 3 */
-
-/* saction 4 */
 
 .chapter-our-team-bg {
   background: #f4f4fd;
@@ -238,20 +260,6 @@ ul {
   background-color: var(--brand-color);
 }
 
-.link-logo-link {
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-.logo-web-link {
-  color: #f4f4fd;
-}
 
 .footer-p {
   font-size: 16px;
@@ -291,10 +299,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brand-color);
-}
-
-.link-photo-portfolio {
-  text-decoration: none;
 }
 
 .viem-portfolio {
