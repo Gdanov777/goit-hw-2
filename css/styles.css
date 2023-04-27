@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family:  "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -26,7 +26,6 @@ ul {
 .link:focus {
   color: #404bbf;
 }
-
 
 .link-logo {
   font-family: 'Raleway', sans-serif;
@@ -68,7 +67,7 @@ ul {
 
 .header-link {
   text-decoration: none;
-  font-family: 'Roboto';
+  font-family:  "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -88,7 +87,7 @@ ul {
 
 .header-link-address {
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -137,7 +136,7 @@ ul {
   color: var(--brand-color);
 }
 
-.names-of-specialists{
+.names-of-specialists {
   letter-spacing: 0.02em;
 }
 
@@ -162,7 +161,7 @@ ul {
 }
 
 .filters-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family:  "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -182,7 +181,7 @@ ul {
 }
 
 .button-main-title {
-  font-family: 'Roboto', sans-serif;
+  font-family:  "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -223,7 +222,6 @@ ul {
   color: #434455;
 }
 
-
 .chapter-our-team-bg {
   background: #f4f4fd;
 }
@@ -261,7 +259,6 @@ ul {
   background-color: var(--brand-color);
 }
 
-
 .footer-p {
   font-size: 16px;
   line-height: 24px;
@@ -274,7 +271,7 @@ ul {
 /* PORTFOLIO */
 
 .filters-btn {
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
